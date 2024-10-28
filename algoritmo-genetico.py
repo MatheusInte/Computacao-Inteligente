@@ -105,7 +105,7 @@ def algoritmo_genetico(tamanho_populacao, quantidade_geracoes, taxa_cruzamento, 
         return melhores_individuos_geracao, melhor_fitness_geracao
 
 TAMANHO_POPULACAO = 100
-QUANTIDADE_GERACOES = 100
+QUANTIDADE_GERACOES = 300
 TAXA_CRUZAMENTO = 0.7
 TAXA_MUTACAO = 0.05
 TIPO_SELECAO = 'selecao_torneio'
