@@ -1,6 +1,7 @@
 import random
 import math
 import matplotlib.pyplot as plt
+import numpy as np
 
 def sphere(vetor):
     return sum(i**2 for i in vetor)
